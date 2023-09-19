@@ -21,16 +21,16 @@ export class ApiService {
 
     switch (method.toUpperCase()) {
       case 'GET':
-        request$ = this.http.get(url);
+        request$ = this.http.get(url, { withCredentials: true });
         break;
       case 'POST':
-        request$ = this.http.post(url, data);
+        request$ = this.http.post(url, data, { withCredentials: true });
         break;
       case 'PUT':
-        request$ = this.http.put(url, data);
+        request$ = this.http.put(url, data, { withCredentials: true });
         break;
       case 'DELETE':
-        request$ = this.http.delete(url);
+        request$ = this.http.delete(url, { withCredentials: true });
         break;
       default:
         throw new Error(`Unsupported HTTP method: ${method}`);
