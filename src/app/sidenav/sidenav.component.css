@@ -10,17 +10,17 @@
       background-color: rgb(1, 38, 69);
     }
 
-    fa-icon {
+    /* fa-icon {
       margin-right: 50px;
       font-size: 30px;
       size: 30px;
-    }
-    span {
+    } */
+    /* span {
       display: inline;
       @media only screen and (max-width: 1300px) {
         display: none;
       }
-    }
+    } */
   }
 }
 .itm {

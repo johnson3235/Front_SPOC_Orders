@@ -64,15 +64,13 @@ span.text-danger {
     color: #ccc;
   }
 }
-.form-control {
+/* .form-control {
   /* Other CSS code... */
   /* Add dropdown list icon */
-  &::-ms-expand {
+  /* &::-ms-expand {
     display: none;
   }
-  label[for="medrepId"] {
-    font-weight: bold;
-  }
+
   option:after {
     content: "\f0d7";
     font-family: "FontAwesome";
@@ -80,29 +78,6 @@ span.text-danger {
     color: #212529;
     position: absolute;
     right: 0;
-  }
-}
-.form-group {
-  /* Other CSS code... */
-  /* Bold label font */
-  label {
-    font-weight: bold;
-  }
+  } */
 
-  /* Use different font for label */
-  label {
-    font-family: "Times New Roman";
-  }
-}
-.form-group {
-  /* Other CSS code... */
-  /* Bold label font */
-  label {
-    font-weight: bold;
-  }
 
-  /* Use different font for label */
-  label {
-    font-family: "Times New Roman";
-  }
-}
