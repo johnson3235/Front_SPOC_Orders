@@ -1,0 +1,36 @@
+<body>
+  <div class="overlay">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <div class="con">
+        <header class="head-form">
+          <h2>Log In</h2>
+          <p>login here using your username and password</p>
+        </header>
+        <br />
+        <div style="text-align: center" class="field-set">
+          <input
+          class="form-control"
+          formControlName="userName"
+            id="userName"
+            type="text"
+            placeholder="UserName"
+            name="userName"
+            required
+          />
+          <br />
+          <input
+          class="form-control"
+          formControlName="password"
+            type="password"
+            placeholder="Password"
+            id="password"
+            name="password"
+            required
+          /><i class="bi bi-eye-slash" id="toggle-password"></i>
+          <br />
+          <button type="submit" class="log-in" >Log In</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
